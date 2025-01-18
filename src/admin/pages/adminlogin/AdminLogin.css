@@ -1,0 +1,47 @@
+/* Styles for centering and responsiveness */
+.adminlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.from {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Restrict width for larger screens */
+  text-align: center;
+}
+
+.admin-login-h1 {
+  margin-bottom: 10px;
+}
+.admin-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Space between inputs */
+  margin-bottom: 1.5rem;
+}
+
+.admin-input-inp {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .from {
+    padding: 1rem;
+  }
+
+  .admin-input-inp,
+  .admin-login-btn {
+    font-size: 0.875rem; /* Slightly smaller text on smaller screens */
+  }
+}

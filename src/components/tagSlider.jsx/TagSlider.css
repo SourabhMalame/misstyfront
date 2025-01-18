@@ -1,0 +1,42 @@
+.tag-slider {
+  overflow: hidden;
+  width: 100%;
+  background-color: #f9f9f9;
+  margin: 20px 0px;
+}
+
+.tag-row {
+  display: flex;
+  white-space: nowrap;
+  animation: slide-left 15s linear infinite ;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.tag-row.reverse {
+  animation: slide-right 12s linear infinite;
+}
+
+.tag-row span {
+  display: inline-block;
+  padding-right: 100%; /* Ensures seamless scrolling */
+}
+
+/* Animations */
+@keyframes slide-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

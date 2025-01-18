@@ -1,0 +1,103 @@
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product-table {
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.product-table h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.dashboard-stats {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f4f4f4;
+}
+
+.dashboard-stats h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stat-box h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.stat-box p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.addproduct {
+  border: 1px solid;
+  padding: 10px;
+  background-color: #007bff;
+  color: wheat;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.addproduct:hover {
+  color: white;
+}
+
+.link {
+  border: 1px solid;
+  padding: 5px;
+  background-color: #007bff;
+  color: wheat;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.heading-dash {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
